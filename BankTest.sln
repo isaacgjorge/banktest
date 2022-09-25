@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31912.275
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API", ".\BankTest.API\API.csproj", "{5CD78FE0-837C-4929-B7E0-4606FD7B2663}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "BankTest.Domain\Domain.csproj", "{59DBE294-7AA7-4C63-8AE0-6BB55F7794E6}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", ".\BankTest.Domain\Domain.csproj", "{59DBE294-7AA7-4C63-8AE0-6BB55F7794E6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Services", "BankTest.Services\Services.csproj", "{C387F8DF-8AAE-4454-A22D-74C3571050C7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Services", ".\BankTest.Services\Services.csproj", "{C387F8DF-8AAE-4454-A22D-74C3571050C7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTests", "BankTest.UnitTests\UnitTests.csproj", "{EC562D58-6451-4CA0-8E1F-DFEE6FEE284A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTests", ".\BankTest.UnitTests\UnitTests.csproj", "{EC562D58-6451-4CA0-8E1F-DFEE6FEE284A}"
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{A572B1A5-F314-49FE-8DCA-5887F7FDA17C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi", "WebApi\WebApi.csproj", "{C8431062-0A10-41E5-BD45-68020B0FA46F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +19,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{5CD78FE0-837C-4929-B7E0-4606FD7B2663}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5CD78FE0-837C-4929-B7E0-4606FD7B2663}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5CD78FE0-837C-4929-B7E0-4606FD7B2663}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5CD78FE0-837C-4929-B7E0-4606FD7B2663}.Release|Any CPU.Build.0 = Release|Any CPU
 		{59DBE294-7AA7-4C63-8AE0-6BB55F7794E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{59DBE294-7AA7-4C63-8AE0-6BB55F7794E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59DBE294-7AA7-4C63-8AE0-6BB55F7794E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -33,6 +31,14 @@ Global
 		{EC562D58-6451-4CA0-8E1F-DFEE6FEE284A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC562D58-6451-4CA0-8E1F-DFEE6FEE284A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC562D58-6451-4CA0-8E1F-DFEE6FEE284A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A572B1A5-F314-49FE-8DCA-5887F7FDA17C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A572B1A5-F314-49FE-8DCA-5887F7FDA17C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A572B1A5-F314-49FE-8DCA-5887F7FDA17C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A572B1A5-F314-49FE-8DCA-5887F7FDA17C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8431062-0A10-41E5-BD45-68020B0FA46F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8431062-0A10-41E5-BD45-68020B0FA46F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8431062-0A10-41E5-BD45-68020B0FA46F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8431062-0A10-41E5-BD45-68020B0FA46F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

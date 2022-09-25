@@ -27,7 +27,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\BankTest.API\API.csproj" />
     <ProjectReference Include="..\BankTest.Services\Services.csproj" />
   </ItemGroup>
 
